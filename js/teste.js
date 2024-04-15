@@ -452,9 +452,9 @@ artistas_populares_recuar .addEventListener('click', ()=>{
 })
   /**Fim das setas */
 let shuffle = document.getElementsByClassName('shuffle')[0];
-shuffle.addEventListener('click', () => {
-    let a= shuffle.innerHTML;
-    switch (a) {
+  shuffle.addEventListener('click', () => {
+      let originalText = shuffle.innerHTML; // Armazenar o texto original
+      switch (originalText) {
           case "next":
               shuffle.classList.add('bi-arrow-repeat');
               shuffle.classList.remove('bi-music-note-beamed');
