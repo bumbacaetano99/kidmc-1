@@ -454,6 +454,7 @@ artistas_populares_recuar .addEventListener('click', ()=>{
 let shuffle = document.getElementsByClassName('shuffle')[0];
 shuffle.addEventListener('click', () => {
     let a= shuffle.innerHTML;
+
     switch (a) {
           case "next":
               shuffle.classList.add('bi-arrow-repeat');
@@ -473,6 +474,6 @@ shuffle.addEventListener('click', () => {
               shuffle.classList.remove('bi-shuffle');
               shuffle.innerHTML = 'next';
               break;
-      }
-  });
+    }
+});
   
