@@ -451,6 +451,7 @@ artistas_populares_recuar .addEventListener('click', ()=>{
     artistas_bx.scrollLeft  -=330
 })
   /**Fim das setas */
+/**Funçao de random, next e repetição */
 let shuffle = document.getElementsByClassName('shuffle')[0];
 shuffle.addEventListener('click', () => {
     let a= shuffle.innerHTML;
@@ -476,4 +477,46 @@ shuffle.addEventListener('click', () => {
               break;
     }
 });
-  
+/**Fim da Funçao de random, next e repetição */
+musica.addEventListener('ended', ()=>{
+    //index ++
+   
+        
+
+})
+const prox_musica = ()=>{
+     if (index == musicas.length) {
+        index=1
+        
+    } else {
+        index++
+        
+    }
+
+
+
+    musica.src= `audio/${index}.mp3`//Colocar(poster) e procurar musicas//
+    poster_melhores_musicas.src=`Imagens/telefones/${index}.jpg`      
+    musica.play() 
+    melhoresmusicas.classList.remove('bi-play-fill')
+    melhoresmusicas.classList.add('bi-pause-fill')
+    download_musica.href=   `audio/${index}.mp3`//Baixar Musicas//
+    let TitulosMusicas = musicas.filter((els)=>{
+        return els.id==index
+    })
+    TitulosMusicas.forEach(elss =>{
+        let {nomeMusica}=elss
+        titulo.innerHTML= nomeMusica
+           // poster_melhores_musicas.src= poster
+        download_musica.setAttribute("download", nomeMusica);
+
+    })
+
+    makeAllBackground()
+    Array.from(document.getElementsByClassName('itens_sons'))[index - 1 ].style.background='rgb(105,105,105, .1)'
+    makeAllplays()
+    e1.target.classList.remove('bi-play-circle-fill')
+    e1.target.classList.add('bi-pause-circle-fill')
+    wave.classList.add('active1')
+}
+jjj
