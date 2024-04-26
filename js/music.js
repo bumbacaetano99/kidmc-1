@@ -478,22 +478,25 @@ shuffle.addEventListener('click', () => {
 });
 /**Fim da Funçao de random, next e repetição */
 musica.addEventListener('ended', ()=>{
-        index ++
-    
-        musica.src= `audio/${index}.mp3`//Colocar(poster) e procurar musicas//
-        poster_melhores_musicas.src=`Imagens/telefones/${index}.jpg`      
-        musica.play() 
-        melhoresmusicas.classList.remove('bi-play-fill')
-        melhoresmusicas.classList.add('bi-pause-fill')
-        download_musica.href=`audio/${index}.mp3`//Baixar Musicas//
-        let TitulosMusicas = musicas.filter((els)=>{
+        if (index==musicas.length) {
+     index=1
+   } else {
+        index= Math.floor((Math.random()* musicas.length)+1)
+   }
+    musica.src= `audio/${index}.mp3`//Colocar(poster) e procurar musicas//
+    poster_melhores_musicas.src=`Imagens/telefones/${index}.jpg`      
+    musica.play() 
+    melhoresmusicas.classList.remove('bi-play-fill')
+    melhoresmusicas.classList.add('bi-pause-fill')
+    download_musica.href=`audio/${index}.mp3`//Baixar Musicas//
+    let TitulosMusicas = musicas.filter((els)=>{
             return els.id==index
         })
-        TitulosMusicas.forEach(elss =>{
-            let {nomeMusica}=elss
-            titulo.innerHTML= nomeMusica
-           // poster_melhores_musicas.src= poster
-           download_musica.setAttribute('download', nomeMusica);
+    TitulosMusicas.forEach(elss =>{
+        let {nomeMusica}=elss
+        titulo.innerHTML= nomeMusica
+        // poster_melhores_musicas.src= poster
+        download_musica.setAttribute('download', nomeMusica);
 
         })
 
@@ -513,5 +516,85 @@ const prox_musica = ()=>{
     } else {
         index++
         
-    }}
+    }
+    musica.src= `audio/${index}.mp3`//Colocar(poster) e procurar musicas//
+    poster_melhores_musicas.src=`Imagens/telefones/${index}.jpg`      
+    musica.play() 
+    melhoresmusicas.classList.remove('bi-play-fill')
+    melhoresmusicas.classList.add('bi-pause-fill')
+    download_musica.href=`audio/${index}.mp3`//Baixar Musicas//
+    let TitulosMusicas = musicas.filter((els)=>{
+            return els.id==index
+        })
+    TitulosMusicas.forEach(elss =>{
+        let {nomeMusica}=elss
+        titulo.innerHTML= nomeMusica
+        // poster_melhores_musicas.src= poster
+        download_musica.setAttribute('download', nomeMusica);
+
+        })
+
+        makeAllBackground()
+        Array.from(document.getElementsByClassName('itens_sons'))[index - 1 ].style.background='rgb(105,105,105, .1)'
+        makeAllplays()
+        e1.target.classList.remove('bi-play-circle-fill')
+        e1.target.classList.add('bi-pause-circle-fill')
+        wave.classList.add('active1')
+    }
+const repeat_musica = ()=>{
+    index
+    musica.src= `audio/${index}.mp3`//Colocar(poster) e procurar musicas//
+    poster_melhores_musicas.src=`Imagens/telefones/${index}.jpg`      
+    musica.play() 
+    melhoresmusicas.classList.remove('bi-play-fill')
+    melhoresmusicas.classList.add('bi-pause-fill')
+    download_musica.href=`audio/${index}.mp3`//Baixar Musicas//
+    let TitulosMusicas = musicas.filter((els)=>{
+            return els.id==index
+        })
+    TitulosMusicas.forEach(elss =>{
+        let {nomeMusica}=elss
+        titulo.innerHTML= nomeMusica
+        // poster_melhores_musicas.src= poster
+        download_musica.setAttribute('download', nomeMusica);
+
+        })
+
+        makeAllBackground()
+        Array.from(document.getElementsByClassName('itens_sons'))[index - 1 ].style.background='rgb(105,105,105, .1)'
+        makeAllplays()
+        e1.target.classList.remove('bi-play-circle-fill')
+        e1.target.classList.add('bi-pause-circle-fill')
+        wave.classList.add('active1')
+    }
+    const random_musica = ()=>{
+   if (index==musicas.length) {
+     index=1
+   } else {
+        index= Math.floor((Math.random()* musicas.length)+1)
+   }
+    musica.src= `audio/${index}.mp3`//Colocar(poster) e procurar musicas//
+    poster_melhores_musicas.src=`Imagens/telefones/${index}.jpg`      
+    musica.play() 
+    melhoresmusicas.classList.remove('bi-play-fill')
+    melhoresmusicas.classList.add('bi-pause-fill')
+    download_musica.href=`audio/${index}.mp3`//Baixar Musicas//
+    let TitulosMusicas = musicas.filter((els)=>{
+            return els.id==index
+        })
+    TitulosMusicas.forEach(elss =>{
+        let {nomeMusica}=elss
+        titulo.innerHTML= nomeMusica
+        // poster_melhores_musicas.src= poster
+        download_musica.setAttribute('download', nomeMusica);
+
+        })
+
+        makeAllBackground()
+        Array.from(document.getElementsByClassName('itens_sons'))[index - 1 ].style.background='rgb(105,105,105, .1)'
+        makeAllplays()
+        e1.target.classList.remove('bi-play-circle-fill')
+        e1.target.classList.add('bi-pause-circle-fill')
+        wave.classList.add('active1')
+    }
 
