@@ -6,199 +6,198 @@ const musicas =[
         id:1,
         nomeMusica: `KID MC & DJ Caique - Oração
         <div class="subtitulo">Kid-Mc ft DJ Caique</div>`,
-        poster: "Imagens/telefones/1.jpg"
+        poster: "Imagens/telefones/kidmc/1.jpg"
 
     },
     {
         id:2,
         nomeMusica: `ADRENALINA
         <div class="subtitulo">KID MC-TÁLI- LUSO</div>`,
-        poster: "Imagens/telefones/2.jpg"
+        poster: "Imagens/telefones/kidmc/2.jpg"
         //Mudar titulo + tarde//
     },
     {
         id:3,
         nomeMusica: `Kid_MC_-_Atitude_e_Flavour
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/3.jpg"
+        poster: "Imagens/telefones/kidmc/3.jpg"
 
     },
     {
         id:4,
         nomeMusica: `Kid_Mc_-_Furiosidade_ft_Extremo_Signo
         <div class="subtitulo">Kid_Mc ft Extremo</div>`,
-        poster: "Imagens/telefones/4.jpg"
+        poster: "Imagens/telefones/kidmc/4.jpg"
 
     },
     {
         id:5,
         nomeMusica: `Kid_MC_-_Know_How
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/5.jpg"
+        poster: "Imagens/telefones/kidmc/5.jpg"
 
     },
     {
         id:6,
         nomeMusica: `O Incorrigível
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/6.jpg"
+        poster: "Imagens/telefones/kidmc/6.jpg"
 
     },
     {
         id:7,
         nomeMusica: `O Regresso De Quem Nunca Foi
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/7.jpg"
+        poster: "Imagens/telefones/kidmc/7.jpg"
 
     },
     {
         id:8,
         nomeMusica: `COMBINAÇÃO MORTIFEIRA
         <div class="subtitulo">KID-MC FT Azagaia e Izlo H</div>`,
-        poster: "Imagens/telefones/8.jpg"
+        poster: "Imagens/telefones/kidmc/8.jpg"
 
     },
     {
         id:9,
         nomeMusica: `CONFRONTO DE TITÂS
         <div class="subtitulo">KID-MC FT DJITAFINHA</div>`,
-        poster: "Imagens/telefones/9.jpg"
+        poster: "Imagens/telefones/kidmc/9.jpg"
 
     },
     {
         id:10,
         nomeMusica: `LINHAS PARALELAS
         <div class="subtitulo">KID-MC FT DJITAFINHA</div>`,
-        poster: "Imagens/telefones/10.jpg"
+        poster: "Imagens/telefones/kidmc/10.jpg"
 
     },
     {
         id:11,
         nomeMusica: `MAIS UM
         <div class="subtitulo">KID-MC FT DITAFINHA</div>`,
-        poster: "Imagens/telefones/11.jpg"
+        poster: "Imagens/telefones/kidmc/11.jpg"
 
     },
     {
         id:12,
         nomeMusica: `DUVIDO
         <div class="subtitulo">KID-MC FT DITAFINHA</div>`,
-        poster: "Imagens/telefones/12.jpg"
+        poster: "Imagens/telefones/kidmc/12.jpg"
 
     },
     {
         id:13,
         nomeMusica: `DEVAGAR
         <div class="subtitulo">KID-MC FT DJITAFINHA</div>`,
-        poster: "Imagens/telefones/13.jpg"
+        poster: "Imagens/telefones/kidmc/13.jpg"
 
     },
     {
         id:14,
         nomeMusica: `RESGATE CULTURAL
         <div class="subtitulo">KID-MC FT DJITAFINHA</div>`,
-        poster: "Imagens/telefones/14.jpg"
+        poster: "Imagens/telefones/kidmc/14.jpg"
 
     },
     {
         id:15 ,
-        nomeMusica: `CAMPEÔES
+        nomeMusica: `Dj Caique, Facção Central e KId MC - Conexão Mestria (Prod. Dj Caique)
         <div class="subtitulo">KID-MC FT DJITAFINHA</div>`,
-        poster: "Imagens/telefones/15.jpg"
+        poster: "Imagens/telefones/kidmc/15.jpg"
 
     },
     {
         id:16,
         nomeMusica: `A VOZ DA RAZÃO
         <div class="subtitulo">KID-MC FT DJITAFINHA</div>`,
-        poster: "Imagens/telefones/16.jpg"
+        poster: "Imagens/telefones/kidmc/16.jpg"
 
     },
     {
         id:17 ,
         nomeMusica: `INFECÇÃO
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/17.jpg"
+        poster: "Imagens/telefones/kidmc/23.jpg"
 
     },
     {
         id:18 ,
         nomeMusica: `PERCEPÇÃO
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/18.jpg"
+        poster: "Imagens/telefones/kidmc/18.jpg"
 
     },
     {
         id:19 ,
         nomeMusica: `Angolas Diferentes
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/19.jpg"
+        poster: "Imagens/telefones/kidmc/19.jpg"
 
     },
     {
         id:20,
-        nomeMusica: `Estranha Trajectória
+        nomeMusica: `
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/20.jpg"
+        poster: "Imagens/telefones/kidmc/20.jpg"
 
     },
     {
         id:21 ,
         nomeMusica: `A Saga Não Pára
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/21.jpg"
+        poster: "Imagens/telefones/kidmc/21.jpg"
 
     },
     {
         id:22 ,
         nomeMusica: `O Último Homem
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/22.jpg"
+        poster: "Imagens/telefones/kidmc/22.jpg"
 
     },
     {
         id:23 ,
         nomeMusica: `Reeducaçao
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/23.jpg"
+        poster: "Imagens/telefones/kidmc/23.jpg"
 
     },
     {
         id:24 ,
         nomeMusica: `Caminhos
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/24.jpg"
+        poster: "Imagens/telefones/kidmc/24.jpg"
 
     },
     {
         id:25 ,
         nomeMusica: `Carga Inicial
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/25.jpg"
+        poster: "Imagens/telefones/kidmc/25.jpg"
 
     },
     {
         id:26,
         nomeMusica: `Educaçao Barata
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/26.jpg"
+        poster: "Imagens/telefones/kidmc/26.jpg"
 
     },
     {
         id:27 ,
         nomeMusica: `Vai Com Calma
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/27.jpg"
+        poster: "Imagens/telefones/kidmc/27.jpg"
 
     },
     {
         id:28 ,
         nomeMusica: `O KID
         <div class="subtitulo">KID-MC</div>`,
-        poster: "Imagens/telefones/28.jpg"
+        poster: "Imagens/telefones/kidmc/28.jpg"
 
     },
-    
 ]
 /**Finalizando adição das músicas */
 
@@ -251,11 +250,11 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e)=>{
         let index= e1.target.id
         //console.log(index)
         musica.src= `audio/${index}.mp3`//Colocar(poster) e procurar musicas//
-        poster_melhores_musicas.src=`Imagens/telefones/${index}.jpg`      
+        poster_melhores_musicas.src=`Imagens/telefones/kidmc/${index}.jpg`      
         musica.play() 
         melhoresmusicas.classList.remove('bi-play-fill')
         melhoresmusicas.classList.add('bi-pause-fill')
-        download_musica.href=`audio/${index}.mp3`//Baixar Musicas//
+        download_musica.href=`audio/kidmc/${index}.mp3`//Baixar Musicas//
         let TitulosMusicas = musicas.filter((els)=>{
             return els.id==index
         })
@@ -362,8 +361,8 @@ voltar.addEventListener('click', ()=>{
         index= Array.from(document.getElementsByClassName('itens_sons')).length
 
     }
-    musica.src= `audio/${index}.mp3`//Colocar(poster) e procurar musicas//
-    poster_melhores_musicas.src=`Imagens/telefones/${index}.jpg`      
+    musica.src= `audio/kidmc/${index}.mp3`//Colocar(poster) e procurar musicas//
+    poster_melhores_musicas.src=`Imagens/telefones/kidmc/${index}.jpg`      
     musica.play() 
     melhoresmusicas.classList.remove('bi-play-fill')
     melhoresmusicas.classList.add('bi-pause-fill')
@@ -395,8 +394,8 @@ proximo.addEventListener('click', ()=>{
         index=1
         
     }
-    musica.src= `audio/${index}.mp3`//Colocar(poster) e procurar musicas//
-    poster_melhores_musicas.src=`Imagens/telefones/${index}.jpg`      
+    musica.src= `audio/kidmc/${index}.mp3`//Colocar(poster) e procurar musicas//
+    poster_melhores_musicas.src=`Imagens/telefones/kidmc/${index}.jpg`      
     musica.play() 
     melhoresmusicas.classList.remove('bi-play-fill')
     melhoresmusicas.classList.add('bi-pause-fill')
@@ -517,7 +516,7 @@ const repeat_musica = ()=>{
     musica.play() 
     melhoresmusicas.classList.remove('bi-play-fill')
     melhoresmusicas.classList.add('bi-pause-fill')
-    download_musica.href=`audio/${index}.mp3`//Baixar Musicas//
+    download_musica.href=`audio/kidmc/${index}.mp3`//Baixar Musicas//
     let TitulosMusicas = musicas.filter((els)=>{
             return els.id==index
         })

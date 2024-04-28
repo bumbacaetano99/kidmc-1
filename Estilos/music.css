@@ -496,6 +496,21 @@ header .musicas_lateral nav .pesquisar::before{
  backdrop-filter: blur(5px);/*Pesquisar mais tarde*/
  z-index: -1;
 }
+header .musicas_lateral nav .procurar_musicas{
+position: absolute;
+width: 100%;
+height: 200px;
+border:  1px solid #fff;
+margin-top: 10px;
+border-radius: 10px;
+}
+header .musicas_lateral nav .procurar_musicas .cartao{
+   width: 100%;
+   min-height: 45px;
+   border-radius: 1px solid #fff;
+}
+
+
 header .musicas_lateral nav .pesquisar .bi{
  font-size: 13px;
  padding:3px 0px 0px 10px ;
