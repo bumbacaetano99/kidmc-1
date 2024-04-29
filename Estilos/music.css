@@ -566,6 +566,10 @@ header .musicas_lateral nav .procurar_musicas {
    border-radius: 10px;
    overflow: auto;
 }
+header .musicas_lateral nav .procurar_musicas::-webkit-scrollbar {
+display: none;
+}
+
 
 header .musicas_lateral nav .procurar_musicas .cartao {
    width: 100%;
