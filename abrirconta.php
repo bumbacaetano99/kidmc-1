@@ -3,8 +3,24 @@ session_start();
 
 
 include('conectar_bancodedados.php');
+$msg=false;
 if ($_SERVER['REQUEST_METHOD']== 'POST') {
-    $$nome_usuario=$_POST['nome_usuario']
+    $nome_usuario=$_POST['nome_usuario'];
+    $email_usuario= $_POST['email_usuario'];
+    $senha_usuario=$_POST['senha_usuario'];
+    $senha_re_usuario=$_POST['senha_re_usuario']; 
+
+
+    if (!empty($nome_usuario) && !empty($email_usuario) && !empty($senha_usuario) && !is_numeric($nome_usuario) ) {
+        if ($senha_usuario===$senha_re_usuario){
+            $query ="Insert into usuario(usuario, email, senha) VALUES('$nome_usuario', '$email_usuario', '$senha_usuario')";
+            mysqli_query($conectar,$query );
+            header("Location: index.php");
+        }else{
+            $msg="Palavra passe incorrecta";
+        }
+    }
+
     
 }
 
@@ -57,13 +73,19 @@ if ($_SERVER['REQUEST_METHOD']== 'POST') {
                 <div class="check">
                     <input type="checkbox" name="" id=""><span>Lembrar-me</span>
                 </div>
-                <p>Fazer Login  <a href="login.html">Login</a></p>
+                <p>Fazer Login  <a href="index.php">Login</a></p>
             </form>
         </div>
     </div> 
     <div class="direto_bx1">
         <img src="Imagens/telefones/41.jpg" alt="">
-        <h3>Palavra passe incorrecta</h3>
+       <!-- <h3>Palavra passe incorrecta</h3>-->
+       <?php
+        echo('<h3>' .$msg.'</h3>');
+
+
+
+        ?>
     </div> 
     </header>
 
