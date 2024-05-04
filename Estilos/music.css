@@ -561,13 +561,14 @@ header .musicas_lateral nav .procurar_musicas {
    position: absolute;
    width: 100%;
    height: 200px;
-  /* border: 1px solid #fff;*/
+   /* border: 1px solid #fff;*/
    margin-top: 10px;
    border-radius: 10px;
    overflow: auto;
 }
+
 header .musicas_lateral nav .procurar_musicas::-webkit-scrollbar {
-display: none;
+   display: none;
 }
 
 
@@ -577,10 +578,11 @@ header .musicas_lateral nav .procurar_musicas .cartao {
    /*border-radius: 1px solid #fff;*/
    display: flex;
    align-items: center;
-   
+
    margin-bottom: 5px;
    background: rgb(184, 184, 184, .1);
    text-decoration: none;
+   display: none;
 
 }
 
@@ -591,20 +593,22 @@ header .musicas_lateral nav .procurar_musicas .cartao img {
 
 
 }
-header .musicas_lateral nav .procurar_musicas .cartao .content{
-width: 80%;
-height: 100%;
-/*border: 1px solid #fff;*/
-padding: 0;
-font-size: 13px;
-font-weight: 600;
-color: #fff;
+
+header .musicas_lateral nav .procurar_musicas .cartao .content {
+   width: 80%;
+   height: 100%;
+   /*border: 1px solid #fff;*/
+   padding: 0;
+   font-size: 13px;
+   font-weight: 600;
+   color: #fff;
 
 }
-header .musicas_lateral nav .procurar_musicas .cartao .content .subtitulo{
-font-size: 11px;
-color: #a4a8b4;
-font-weight: 500;
+
+header .musicas_lateral nav .procurar_musicas .cartao .content .subtitulo {
+   font-size: 11px;
+   color: #a4a8b4;
+   font-weight: 500;
 
 
 }
@@ -892,7 +896,131 @@ header .musicas_lateral .artistas_populares .item li img {
 }
 
 
+/* Configurar Tela Login-Inicio*/
 
+header .esquerdo_bx1,
+.direto_bx1 {
+   position: relative;
+   width: 65%;
+   height: 100%;
+   /*border: 1px solid #fff;*/
+   background: #0b1320;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+header .esquerdo_bx1 {
+   width: 35%;
+   background: #fff;
+   /*box-shadow: 5px 0px 2px #090f1f;*/
+}
+
+header .esquerdo_bx1 .content {
+   width: 75%;
+   height: auto;
+   border: none;
+   padding: 25px 20px;
+   background: #fff;
+
+}
+
+header .esquerdo_bx1 .content .cartao {
+   width: 100%;
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 20px;
+
+}
+
+header .esquerdo_bx1 .content .cartao label {
+   font-size: 14px;
+
+}
+
+header .esquerdo_bx1 .content .cartao input {
+   width: 100%;
+   padding: 6px 10px;
+   border: 1px solid rgb(154, 154, 154);
+   background: rgb(238, 238, 283);
+   margin-top: 5px;
+
+
+}
+
+header .esquerdo_bx1 .content .submit {
+   margin-top: 30px;
+   padding: 8px 20px;
+   color: #fff;
+   background: #111727;
+   width: 100%;
+   cursor: pointer;
+
+}
+
+header .esquerdo_bx1 .content .submit {
+   margin-top: 30px;
+   padding: 8px 20px;
+   color: #fff;
+   background: #111727;
+   width: 100%;
+   cursor: pointer;
+
+}
+
+header .esquerdo_bx1 .content .check {
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+
+}
+
+header .esquerdo_bx1 .content .check .span {
+   margin-left: 5px;
+   font-size: 13px;
+}
+
+header .esquerdo_bx1 .content p {
+   margin-top: 90px;
+   text-align: center;
+   font-size: 13px;
+
+}
+
+header .esquerdo_bx1 .content p a {
+   text-decoration: none;
+   color: #5adae0;
+   font-weight: bold;
+
+}
+
+header .direto_bx1 h3 {
+   position: absolute;
+   background: #5adae0;
+   color: black;
+   right: 0;
+   bottom: 20px;
+   padding: 3px 10px;
+   border-radius: 5px 0px 0px 5px;
+   font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Configurar Tela Login-Fim*/
 
 
 
