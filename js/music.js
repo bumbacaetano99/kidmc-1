@@ -207,6 +207,62 @@ Array.from(document.getElementsByClassName('itens_sons')).forEach((e, i)=>{
     e.getElementsByTagName('h5')[0].innerHTML=musicas[i].nomeMusica
 
 })
+
+/**Pesquisar musicas */
+//Comecar Procurar Dados 
+let procurar_musicas=document.getElementsByClassName('procurar_musicas')[0]
+
+musicas.forEach(element => {
+    const {id, nomeMusica, poster}=element
+    //console.log(nomeMusica)
+    let cartao = document.createElement('a')
+    cartao.classList.add('cartao')
+    cartao.href="#"+id
+
+
+    cartao.innerHTML=`
+        <img  src="${poster}" alt=""> 
+            <div class="content">
+                  
+                ${nomeMusica}
+            </div>
+            
+    `
+    procurar_musicas.appendChild(cartao)
+    
+});
+
+let input= document.getElementsByTagName('input')[0]
+
+input.addEventListener('keyup', ()=>{
+    let input_value= input.value.toUpperCase()
+    let items= procurar_musicas.getElementsByTagName('a')
+
+    for (let index = 0; index < items.length; index++) {
+        let as = items[index].getElementsByClassName('content')[0]
+        let text_value=as.textContent || as.innerHTML
+
+
+        if (text_value.toUpperCase().indexOf(input_value) > -1) {
+            items[index].style.display="flex"
+            
+        } else {
+            items[index].style.display="none"
+        }
+        if (input_value==0) {
+            procurar_musicas.style.display="none"
+            
+        } else {
+            procurar_musicas.style.display=""
+        }
+        
+    }
+})
+//Fim na Procura dos dados
+
+
+/**Fim da pesquisa musica */
+
 /**Função de tocar e pausar a musica/Equalizador */
 let melhoresmusicas= document.getElementById('melhoresmusicas')
 let wave= document.getElementById('wave')

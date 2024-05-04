@@ -147,62 +147,22 @@
         <ul>
           <li>Página Inicial <span></span></li>
           <li>Albuns</li>
-          <li>Videos-Clips</li>
+          
+            <li>Videos-Clips</li>
+          
         </ul>
         <div class="pesquisar">
           <i class=" bi bi-search"></i>
           <input type="text" name="" id="" placeholder="Pesquise a música...">
           <div class="procurar_musicas">
-            <a href="" class="cartao"><img  src="Imagens/telefones/50.jpg" alt=""> 
+          <!--   <a href="" class="cartao"><img  src="Imagens/telefones/50.jpg" alt=""> 
             <div class="content">
                   Incorrigível
                   <div class="subtitulo">
                     KID-MC
                   </div>
             </div> 
-            </a>
-              <a href="" class="cartao"><img  src="Imagens/telefones/50.jpg" alt=""> 
-            <div class="content">
-                  Incorrigível
-                  <div class="subtitulo">
-                    KID-MC
-                  </div>
-            </div> 
-            </a>
-              <a href="" class="cartao"><img  src="Imagens/telefones/50.jpg" alt=""> 
-            <div class="content">
-                  Incorrigível
-                  <div class="subtitulo">
-                    KID-MC
-                  </div>
-            </div> 
-            </a>
-
-              <a href="" class="cartao"><img  src="Imagens/telefones/50.jpg" alt=""> 
-            <div class="content">
-                  Incorrigível
-                  <div class="subtitulo">
-                    KID-MC
-                  </div>
-            </div> 
-            </a>
-
-              <a href="" class="cartao"><img  src="Imagens/telefones/50.jpg" alt=""> 
-            <div class="content">
-                  Incorrigível
-                  <div class="subtitulo">
-                    KID-MC
-                  </div>
-            </div> 
-            </a>
-              <a href="" class="cartao"><img  src="Imagens/telefones/50.jpg" alt=""> 
-            <div class="content">
-                  Incorrigível
-                  <div class="subtitulo">
-                    KID-MC
-                  </div>
-            </div> 
-            </a>
+            </a>--> 
          
             
           </div>
